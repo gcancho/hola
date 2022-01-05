@@ -1,227 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giovanni Cancho - Frontend</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/mediaqueries.css">
-    <link rel="shortcut icon" href="assets/img/icons/favicon.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/a21ee4ed16.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
-  
-    
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/mediaqueries.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/a21ee4ed16.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Menu -->
     <nav id="navbar" class="menu">
-        <ul>
-            <li><a href="#welcome-section">
-                Giovanni Cancho 
-            </a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-            <!-- <li><a href="https://github.com/nubiaferr" target="_blank" id="profile-link">
+      <ul>
+        <li><a href="#welcome-section"> Giovanni Cancho </a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <!-- <li><a href="https://github.com/nubiaferr" target="_blank" id="profile-link">
                 <img src="assets/img/icons/github-11-64 (2).png" alt="">
             </a></li> -->
-        </ul>
+      </ul>
     </nav>
 
-
-<!-- Welcome -->
+    <!-- Welcome -->
     <section id="welcome-section" class="background">
-        <div class="container-welcome">
-            <div class="welcome-text">
-        <h1>Hola soy Giovanni</h1>
-        <h2>front-end developer</h2>
-        <p>Soy estudiante universitario de Ing. de sistemas y creador de contenido acerca del desarrollo web en Youtube .</p>
-        <p>Me gusta compartir mis conocimientos con la comunidad, en mis tiempos libres suelo grabar videos tutoriales, manejar bicicleta, ver animes y otros pasatiempos. </p>
-        <p>Las tecnologías que más domino son: HTML, CSS, SASS, Bootstrap, JS Vanilla, ReactJs y un poco de PHP.</p>  
-            </div>
-            <div class="welcome-img">
-                <!-- <img src="assets/img/head-port.png" alt=""> -->
-            </div>
+      <div class="container-welcome">
+        <div class="welcome-text">
+          <h1>Hola soy Giovanni</h1>
+          <h2>front-end developer</h2>
+          <p>
+            Soy estudiante universitario de Ing. de sistemas y creador de
+            contenido acerca del desarrollo web en Youtube .
+          </p>
+          <p>
+            Me gusta compartir mis conocimientos con la comunidad, en mis
+            tiempos libres suelo grabar videos tutoriales, manejar bicicleta,
+            ver animes y otros pasatiempos.
+          </p>
+          <p>
+            Las tecnologías que más domino son: HTML, CSS, SASS, Bootstrap, JS
+            Vanilla, ReactJs y un poco de PHP.
+          </p>
         </div>
+        <div class="welcome-img">
+          <!-- <img src="assets/img/head-port.png" alt=""> -->
+        </div>
+      </div>
     </section>
-
 
     <!-- Projects -->
     <section id="projects" class="background">
-        <div class="text">
-            <h1>Proyectos</h1>
-            <!-- <p>Algunos proyectos que he realizado :</p> -->
-        </div>
+      <div class="text">
+        <h1>Proyectos</h1>
+        <!-- <p>Algunos proyectos que he realizado :</p> -->
+      </div>
 
-        <!-- Grid webdesign -->
-        <div class="project-grid">
-            <!-- Fashion blog -->
-            <div class="project-tile">
+      <!-- Flex webdesign -->
+      <div class="project-flexbox">
+        <!-- Fashion blog -->
+        <div class="project-tile">
+          <a href="https://github.com/gcancho/Blog-web" target="_blank">
+            <img src="assets/img/blog.gif" alt="" />
+          </a>
+          <div class="tile-sub">
+            <p><strong>Fashion Blog</strong></p>
+            <p>Fashion Blog inspirado en un tema de Wordpress.</p>
+            <div class="sub-3">
+              <div class="sub-icons">
                 <a href="https://github.com/gcancho/Blog-web" target="_blank">
-                    <img src="assets/img/blog.gif" alt="">
+                  <i class="fa fa-github"></i>
                 </a>
-                <div class="tile-sub">
-                    <p><strong>Fashion Blog</strong></p>
-                    <p>Fashion Blog inspirado en un tema de Wordpress.</p>
-                    <div class="sub-3">
-                        <div class="sub-icons">
-                            <a href="https://github.com/gcancho/Blog-web" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </div>
-                        <div class="stack">
-                            <div class="sub-stack">
-                                HTML
-                            </div>
-                            <div class="sub-stack">
-                                SASS
-                            </div>
-                            <div class="sub-stack">
-                                JS
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <div class="stack">
+                <div class="sub-stack">HTML</div>
+                <div class="sub-stack">SASS</div>
+                <div class="sub-stack">JS</div>
+              </div>
             </div>
-
-            <!-- Web QR -->
-            <div class="project-tile">
-                <a href="https://quimicarodriguez.com/" target="_blank">
-                    <img src="assets/img/quimica.gif" alt="">
-                </a>
-                <div class="tile-sub">
-                    <p><strong>Sitio Web Química Rodriguez</strong></p>
-                    <p>Web con catalogo de productos químicos y de limpieza</p>
-                    <div class="sub-3">
-                        <div class="sub-icons">
-                            <a href="https://github.com/gcancho/quimica-react" target="_blank"><i class="fa fa-github"></i></a>
-                        </div>
-                        <div class="stack">
-                            <div class="sub-stack">
-                                HTML
-                            </div>
-                            <div class="sub-stack">
-                                CSS
-                            </div>
-                            <div class="sub-stack">
-                                React JS
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Web Difa -->
-            <div class="project-tile">
-                <a href="https://difapackperu.com/" target="_blank">
-                    <img src="assets/img/difa.gif" alt="">
-                </a>
-                <div class="tile-sub">
-                    <p><strong>Sitio Web Difa Pack</strong></p>
-                    <p>Web de máquinas llenadoras y envasadoras.</p>
-                    <div class="sub-3">
-                        <div class="sub-icons">
-                            <a href="https://github.com/gcancho" target="_blank"><i class="fa fa-github"></i></a>
-                        </div>
-                        <div class="stack">
-                            <div class="sub-stack">
-                                HTML
-                            </div>
-                            <div class="sub-stack">
-                                SASS
-                            </div>
-                            <div class="sub-stack">
-                                JS
-                            </div>
-                            <div class="sub-stack">
-                                PHP
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-       
-        <!-- Frameworks -->
-        <div class="project-grid">
-            <!-- Monster -->
-            <div class="project-tile">
-                <a href="https://github.com/gcancho/login-animado" target="_blank">
-                    <img src="assets/img/monster.png" alt="">
-                </a>
-                <div class="tile-sub">
-                    <p><strong>Login animado monster </strong></p>
-                    <p>Login animado con javascript.</p>
-                    <div class="sub-3">
-                        <div class="sub-icons">
-                            <a href="https://github.com/gcancho/login-animado" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="https://youtu.be/Na2diMoaxEo" target="_blank"><i class="fa fa-youtube"></i></a>
-                        </div>
-                        <div class="stack">
-                            <div class="sub-stack">
-                                HTML
-                            </div>
-                            <div class="sub-stack">
-                                CSS
-                            </div>
-                            <div class="sub-stack">
-                                JS
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Web QR -->
+        <div class="project-tile">
+          <a href="https://quimicarodriguez.com/" target="_blank">
+            <img src="assets/img/quimica.gif" alt="" />
+          </a>
+          <div class="tile-sub">
+            <p><strong>Sitio Web Química Rodriguez</strong></p>
+            <p>Web con catalogo de productos químicos y de limpieza</p>
+            <div class="sub-3">
+              <div class="sub-icons">
+                <a
+                  href="https://github.com/gcancho/quimica-react"
+                  target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </div>
+              <div class="stack">
+                <div class="sub-stack">HTML</div>
+                <div class="sub-stack">CSS</div>
+                <div class="sub-stack">React JS</div>
+              </div>
             </div>
-            <!-- Pokemon -->
-            <div class="project-tile">
-                <a href="https://github.com/gcancho/dark-mode-pokemon" target="_blank">
-                    <img src="assets/img/pokemon.png" alt="">
-                </a>
-                <div class="tile-sub">
-                    <p><strong>Pokemon Dark Mode</strong></p>
-                    <p>Modo oscuro utilizando LocalStorage</p>
-                    <div class="sub-3">
-                        <div class="sub-icons">
-                            <a href="https://github.com/gcancho/dark-mode-pokemon" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="https://youtu.be/AWHs8aQ1Eb4" target="_blank"><i class="fa fa-youtube"></i></a>
-                        </div>
-                        <div class="stack">
-                            <div class="sub-stack">
-                                HTML
-                            </div>
-                            <div class="sub-stack">
-                                CSS
-                            </div>
-                            <div class="sub-stack">
-                                JS
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Web Difa -->
+        <div class="project-tile">
+          <a href="https://difapackperu.com/" target="_blank">
+            <img src="assets/img/difa.gif" alt="" />
+          </a>
+          <div class="tile-sub">
+            <p><strong>Sitio Web Difa Pack</strong></p>
+            <p>Web de máquinas llenadoras y envasadoras.</p>
+            <div class="sub-3">
+              <div class="sub-icons">
+                <a href="https://github.com/gcancho" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </div>
+              <div class="stack">
+                <div class="sub-stack">HTML</div>
+                <div class="sub-stack">SASS</div>
+                <div class="sub-stack">JS</div>
+                <div class="sub-stack">PHP</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Monster -->
+        <div class="project-tile">
+          <a href="https://github.com/gcancho/login-animado" target="_blank">
+            <img src="assets/img/monster.png" alt="" />
+          </a>
+          <div class="tile-sub">
+            <p><strong>Login animado monster </strong></p>
+            <p>Login animado con javascript.</p>
+            <div class="sub-3">
+              <div class="sub-icons">
+                <a
+                  href="https://github.com/gcancho/login-animado"
+                  target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+                <a href="https://youtu.be/Na2diMoaxEo" target="_blank"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </div>
+              <div class="stack">
+                <div class="sub-stack">HTML</div>
+                <div class="sub-stack">CSS</div>
+                <div class="sub-stack">JS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pokemon -->
+        <div class="project-tile">
+          <a
+            href="https://github.com/gcancho/dark-mode-pokemon"
+            target="_blank"
+          >
+            <img src="assets/img/pokemon.png" alt="" />
+          </a>
+          <div class="tile-sub">
+            <p><strong>Pokemon Dark Mode</strong></p>
+            <p>Modo oscuro utilizando LocalStorage</p>
+            <div class="sub-3">
+              <div class="sub-icons">
+                <a
+                  href="https://github.com/gcancho/dark-mode-pokemon"
+                  target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+                <a href="https://youtu.be/AWHs8aQ1Eb4" target="_blank"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </div>
+              <div class="stack">
+                <div class="sub-stack">HTML</div>
+                <div class="sub-stack">CSS</div>
+                <div class="sub-stack">JS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="contact" class="background">
-            <div class="text">
-                <h1>Contacto</h1>
-                <p>Puedes escribirme un mensaje, me encantaría conocerte :) </p>
-            </div>
-        <div class="container-contact">
-            <div class="contact-info">
-                <!-- <div class="contact-img">
+      <div class="text">
+        <h1>Contacto</h1>
+        <p>Puedes escribirme un mensaje, me encantaría conocerte :)</p>
+      </div>
+      <div class="container-contact">
+        <div class="contact-info">
+          <!-- <div class="contact-img">
                     <img src="assets/img/escritorio.jpg" alt="">
                 </div> -->
 
-                <div class="social-network">
-                    <a href="https://www.linkedin.com/in/giovannicancho/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                   <a href="https://wa.me/51955427033?text=Hola%20Giovanni%20:)" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                   <a href="https://github.com/gcancho" target="_blank"><i class="fab fa-github"></i></a>
-                   <a href="https://www.facebook.com/giovanni.cancho/" target="_blank"><i class="fab fa-facebook"></i></a>
-                   <a href="https://www.instagram.com/giovanni.c19" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-
-            </div>
-                    <!-- formulario -->
-            <!-- <div class="contact-form">
+          <div class="social-network">
+            <a
+              href="https://www.linkedin.com/in/giovannicancho/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://wa.me/51955427033?text=Hola%20Giovanni%20:)"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="https://github.com/gcancho" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.facebook.com/giovanni.cancho/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/giovanni.c19" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <!-- formulario -->
+        <!-- <div class="contact-form">
                 <form action="https://app.99inbound.com/api/e/eVTUuLga" method="POST" target="_blank">
                 <fieldset>
                     <div class="form-group">
@@ -242,15 +249,20 @@
                 </fieldset>
             </form>
             </div>  -->
-        </div>
+      </div>
 
-        <footer>
-            <p>Creado por <a target="_blank" href="https://www.linkedin.com/in/giovannicancho/">Giovanni Cancho</a></p>
-        </footer>
-
+      <footer>
+        <p>
+          Creado por
+          <a target="_blank" href="https://www.linkedin.com/in/giovannicancho/"
+            >Giovanni Cancho</a
+          >
+        </p>
+      </footer>
     </section>
 
-    <a href="#navbar" class="back-to-top"><code><i class="fas fa-sort-up"></i></code></a>
-    
-</body>
+    <a href="#navbar" class="back-to-top"
+      ><code><i class="fas fa-sort-up"></i></code
+    ></a>
+  </body>
 </html>

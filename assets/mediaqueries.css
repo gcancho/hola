@@ -2,6 +2,17 @@
   display: none;
 }
 
+@media (max-width: 1060px) {
+  .project-tile {
+    width: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .title-sub {
+    min-height: 160px !important;
+  }
+}
+
 @media (max-width: 1160px) {
   .menu {
     display: none !important;
@@ -128,8 +139,8 @@
   }
 
   .project-tile {
-    width: 19.375rem;
-    height: 13.125rem;
+    width: 32.375rem;
+    /* height: 13.125rem; */
   }
 
   /* Contact */
