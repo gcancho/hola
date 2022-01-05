@@ -165,6 +165,8 @@ nav#navbar img:hover {
   margin-left: 3.75rem;
   margin-bottom: 12.5rem;
   margin-top: 1.875rem;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .project-tile {
