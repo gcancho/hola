@@ -98,6 +98,10 @@ nav#navbar a {
   color: inherit;
 }
 
+.menu ul li a:active {
+  font-size: 2.3rem !important;
+}
+
 nav#navbar a:hover {
   color: var(--pink);
 }
